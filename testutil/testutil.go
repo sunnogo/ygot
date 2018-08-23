@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
-	"github.com/openconfig/gnmi/value"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
+	"github.com/sunnogo/gnmi/value"
 )
 
 // NotificationSetEqual compares the contents of a and b and returns true if

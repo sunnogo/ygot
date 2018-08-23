@@ -23,9 +23,9 @@ import (
 
 	log "github.com/golang/glog"
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/util"
+	"github.com/sunnogo/ygot/util"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // ValidateLeafRefData traverses the entire tree with root value and the given

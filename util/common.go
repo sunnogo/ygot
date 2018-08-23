@@ -18,7 +18,7 @@ package util
 import (
 	"github.com/openconfig/goyang/pkg/yang"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 var (

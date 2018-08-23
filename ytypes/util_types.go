@@ -20,8 +20,8 @@ import (
 	"strconv"
 
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/util"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/util"
+	"github.com/sunnogo/ygot/ygot"
 
 	log "github.com/golang/glog"
 )

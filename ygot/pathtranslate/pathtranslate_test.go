@@ -18,10 +18,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openconfig/gnmi/errdiff"
+	"github.com/sunnogo/gnmi/errdiff"
 	"github.com/openconfig/goyang/pkg/yang"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func TestInstantiationOfTranslator(t *testing.T) {

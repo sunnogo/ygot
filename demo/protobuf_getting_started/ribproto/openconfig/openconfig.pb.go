@@ -12,12 +12,12 @@ It has these top-level messages:
 */
 package openconfig
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/sunnogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/openconfig/ygot/proto/ywrapper"
-import _ "github.com/openconfig/ygot/proto/yext"
-import openconfig_openconfig_rib_bgp "github.com/openconfig/ygot/demo/protobuf_getting_started/ribproto/openconfig/openconfig_rib_bgp"
+import _ "github.com/sunnogo/ygot/proto/ywrapper"
+import _ "github.com/sunnogo/ygot/proto/yext"
+import openconfig_openconfig_rib_bgp "github.com/sunnogo/ygot/demo/protobuf_getting_started/ribproto/openconfig/openconfig_rib_bgp"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

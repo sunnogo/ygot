@@ -28,7 +28,7 @@ import (
 
 	log "github.com/golang/glog"
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/ygen"
+	"github.com/sunnogo/ygot/ygen"
 )
 
 const (

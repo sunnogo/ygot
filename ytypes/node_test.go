@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/openconfig/gnmi/errdiff"
+	"github.com/sunnogo/gnmi/errdiff"
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/ygot"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 type InnerContainerType1 struct {

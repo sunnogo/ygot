@@ -25,9 +25,9 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/openconfig/gnmi/errdiff"
+	"github.com/sunnogo/gnmi/errdiff"
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/testutil"
+	"github.com/sunnogo/ygot/testutil"
 )
 
 const (

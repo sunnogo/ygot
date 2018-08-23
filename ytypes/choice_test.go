@@ -21,7 +21,7 @@ import (
 
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/ygot"
 )
 
 type ChoiceStruct struct {

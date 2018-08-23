@@ -24,7 +24,7 @@ import (
 
 	log "github.com/golang/glog"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // IsTypeStruct reports whether t is a struct type.

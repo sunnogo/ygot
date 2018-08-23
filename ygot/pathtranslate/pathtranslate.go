@@ -22,7 +22,7 @@ import (
 
 	"github.com/openconfig/goyang/pkg/yang"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 const separator = "/"

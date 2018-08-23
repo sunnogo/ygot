@@ -24,8 +24,8 @@ import (
 
 	log "github.com/golang/glog"
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/util"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/util"
+	"github.com/sunnogo/ygot/ygot"
 )
 
 // Refer to: https://tools.ietf.org/html/rfc6020#section-7.6.

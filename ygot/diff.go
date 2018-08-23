@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/openconfig/ygot/util"
+	"github.com/sunnogo/ygot/util"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
-	"github.com/openconfig/gnmi/value"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
+	"github.com/sunnogo/gnmi/value"
 )
 
 // schemaPathTogNMIPath takes an input schema path represented as a slice of

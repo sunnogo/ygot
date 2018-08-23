@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/ygot"
 )
 
 const (

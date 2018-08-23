@@ -20,13 +20,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/openconfig/ygot/testutil"
-	"github.com/openconfig/ygot/util"
+	"github.com/sunnogo/ygot/testutil"
+	"github.com/sunnogo/ygot/util"
 
-	"github.com/openconfig/gnmi/errdiff"
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	"github.com/sunnogo/gnmi/errdiff"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func TestSchemaPathToGNMIPath(t *testing.T) {

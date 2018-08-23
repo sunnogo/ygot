@@ -26,13 +26,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/ygot/ygot"
 
 	log "github.com/golang/glog"
-	oc "github.com/openconfig/ygot/exampleoc"
+	oc "github.com/sunnogo/ygot/exampleoc"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func main() {

@@ -22,11 +22,11 @@ package yangplugin
 import (
 	"strings"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/protoc-gen-go/generator"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/protobuf/protoc-gen-go/generator"
 
-	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/openconfig/ygot/proto/yext"
+	dpb "github.com/sunnogo/protobuf/protoc-gen-go/descriptor"
+	"github.com/sunnogo/ygot/proto/yext"
 )
 
 // init registers the generator against the protoc-gen-go framework.

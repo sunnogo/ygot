@@ -11,11 +11,11 @@ It has these top-level messages:
 */
 package openconfig_enums
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/sunnogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/openconfig/ygot/proto/ywrapper"
-import _ "github.com/openconfig/ygot/proto/yext"
+import _ "github.com/sunnogo/ygot/proto/ywrapper"
+import _ "github.com/sunnogo/ygot/proto/yext"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

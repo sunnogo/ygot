@@ -23,9 +23,9 @@ import (
 
 	"github.com/kylelemons/godebug/pretty"
 
-	"github.com/openconfig/gnmi/errdiff"
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
-	"github.com/openconfig/ygot/testutil"
+	"github.com/sunnogo/gnmi/errdiff"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
+	"github.com/sunnogo/ygot/testutil"
 )
 
 const (

@@ -19,12 +19,12 @@ import (
 	"reflect"
 
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/util"
-	"github.com/openconfig/ygot/ygot"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/ygot/util"
+	"github.com/sunnogo/ygot/ygot"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/status"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // Type retrieveNodeArgs contains the set of parameters that changes

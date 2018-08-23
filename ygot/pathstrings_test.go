@@ -19,9 +19,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/errdiff"
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/errdiff"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // TestPathToString validates the functionality provided by the PathToString

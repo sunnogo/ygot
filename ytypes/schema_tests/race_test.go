@@ -17,8 +17,8 @@ package validate
 import (
 	"testing"
 
-	oc "github.com/openconfig/ygot/exampleoc"
-	"github.com/openconfig/ygot/ygot"
+	oc "github.com/sunnogo/ygot/exampleoc"
+	"github.com/sunnogo/ygot/ygot"
 )
 
 // TestRace performs operations on generated code which may be executed

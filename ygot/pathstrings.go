@@ -22,9 +22,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/openconfig/ygot/util"
+	"github.com/sunnogo/ygot/util"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // PathType is used to indicate a gNMI path type.

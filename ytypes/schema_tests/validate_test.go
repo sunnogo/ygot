@@ -25,16 +25,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openconfig/ygot/experimental/ygotutils"
-	"github.com/openconfig/ygot/testutil"
-	"github.com/openconfig/ygot/util"
-	"github.com/openconfig/ygot/ygot"
-	"github.com/openconfig/ygot/ytypes"
+	"github.com/sunnogo/ygot/experimental/ygotutils"
+	"github.com/sunnogo/ygot/testutil"
+	"github.com/sunnogo/ygot/util"
+	"github.com/sunnogo/ygot/ygot"
+	"github.com/sunnogo/ygot/ytypes"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	oc "github.com/openconfig/ygot/exampleoc"
-	scpb "google.golang.org/genproto/googleapis/rpc/code"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	oc "github.com/sunnogo/ygot/exampleoc"
+	scpb "github.com/sunnogo/go-genproto/googleapis/rpc/code"
+	spb "github.com/sunnogo/go-genproto/googleapis/rpc/status"
 )
 
 // To debug a schema node subtree, any of the following can be used:

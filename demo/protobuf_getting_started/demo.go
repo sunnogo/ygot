@@ -21,12 +21,12 @@ import (
 	"fmt"
 
 	log "github.com/golang/glog"
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 
-	ocpb "github.com/openconfig/ygot/demo/protobuf_getting_started/ribproto/openconfig"
-	ocenums "github.com/openconfig/ygot/demo/protobuf_getting_started/ribproto/openconfig/enums"
-	ocrpb "github.com/openconfig/ygot/demo/protobuf_getting_started/ribproto/openconfig/openconfig_rib_bgp"
-	ywpb "github.com/openconfig/ygot/proto/ywrapper"
+	ocpb "github.com/sunnogo/ygot/demo/protobuf_getting_started/ribproto/openconfig"
+	ocenums "github.com/sunnogo/ygot/demo/protobuf_getting_started/ribproto/openconfig/enums"
+	ocrpb "github.com/sunnogo/ygot/demo/protobuf_getting_started/ribproto/openconfig/openconfig_rib_bgp"
+	ywpb "github.com/sunnogo/ygot/proto/ywrapper"
 )
 
 func main() {

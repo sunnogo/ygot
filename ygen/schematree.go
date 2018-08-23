@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openconfig/gnmi/ctree"
+	"github.com/sunnogo/gnmi/ctree"
 	"github.com/openconfig/goyang/pkg/yang"
 )
 

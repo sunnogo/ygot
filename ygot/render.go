@@ -22,12 +22,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/errlist"
-	"github.com/openconfig/gnmi/value"
-	"github.com/openconfig/ygot/util"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/errlist"
+	"github.com/sunnogo/gnmi/value"
+	"github.com/sunnogo/ygot/util"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 const (

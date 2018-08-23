@@ -17,7 +17,7 @@ package testutil
 import (
 	"testing"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func TestNotificationSetEqual(t *testing.T) {

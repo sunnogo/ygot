@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/util"
+	"github.com/sunnogo/ygot/util"
 )
 
 const (

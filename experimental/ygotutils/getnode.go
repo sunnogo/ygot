@@ -1,5 +1,5 @@
 // Package ygotutils implements utility functions for users of
-// github.com/openconfig/ygot.
+// github.com/sunnogo/ygot.
 package ygotutils
 
 import (
@@ -7,12 +7,12 @@ import (
 	"reflect"
 
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/util"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/util"
+	"github.com/sunnogo/ygot/ygot"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	scpb "google.golang.org/genproto/googleapis/rpc/code"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	scpb "github.com/sunnogo/go-genproto/googleapis/rpc/code"
+	spb "github.com/sunnogo/go-genproto/googleapis/rpc/status"
 )
 
 // GetNode returns the node in the data tree at the indicated path, relative to

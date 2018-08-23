@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // pathNoKeysToGNMIPath converts the supplied path, which may not contain any

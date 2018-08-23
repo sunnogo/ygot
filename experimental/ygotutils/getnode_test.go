@@ -7,11 +7,11 @@ import (
 
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/ygot"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	scpb "google.golang.org/genproto/googleapis/rpc/code"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	scpb "github.com/sunnogo/go-genproto/googleapis/rpc/code"
+	spb "github.com/sunnogo/go-genproto/googleapis/rpc/status"
 )
 
 var (

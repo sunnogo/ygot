@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/openconfig/goyang/pkg/yang"
-	"github.com/openconfig/ygot/testutil"
+	"github.com/sunnogo/ygot/testutil"
 )
 
 func TestGzipToSchema(t *testing.T) {

@@ -21,12 +21,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/protoc-gen-go/generator"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/protobuf/protoc-gen-go/generator"
 	"github.com/kylelemons/godebug/pretty"
 
-	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	pb "github.com/openconfig/ygot/protoyangplugin/pkg/testproto"
+	dpb "github.com/sunnogo/protobuf/protoc-gen-go/descriptor"
+	pb "github.com/sunnogo/ygot/protoyangplugin/pkg/testproto"
 )
 
 const TestRoot string = ""
